@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <title> DeepWave - Our Impact </title>
+    <script src = "https://cdn.tailwindcss.com"></script>
+    <link href = "https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+        font-family: 'Poppins', sans-serif;
+        }
+        .deepwave-font {
+        font-family: 'Kaisei Decol', serif;
+        }
+    </style>
+</head>
+
+<body class = "bg-[url('images/paper_bg.png')] bg-repeat bg-top bg-fixed bg-cover m-0">
+    <!-- header -->
+    <header class = "bg-[#9DB6DE] border-b border-gray-300 relative z-10">
+    
+    <div class = "max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        <a href = "index.html" class = "flex items-center space-x-2">
+            <img src = "/images/deepwave_logo.png" alt = "DeepWave Logo" class = "w-9 h-10"/>
+            <span class = "text-[28px] deepwave-font text-[#080E48] font-bold"> DeepWave </span>
+        </a>
+      
+        <nav class = "space-x-6 text-[#323232] font-medium text-[16px]">
+            <a href = "index.html" class = "hover:text-white transition-colors duration-300"> Home </a>
+            <a href = "about.html" class = "hover:text-white transition-colors duration-300"> About </a>
+            <a href = "involve.html" class = "hover:text-white transition-colors duration-300"> Get Involved </a>
+            <a href = "impact.html" class = "hover:text-white transition-colors duration-300"> Impact </a>
+            <a href = "resources.html" class = "hover:text-white transition-colors duration-300"> Resources </a>
+        </nav>
+    </div>
+    </header>
+
+    <!-- hero section -->
+    <section class = "bg-transparent pt-10 pb-16">
+    <div class = "text-center mb-10">
+        <h2 class = "text-[40px] deepwave-font font-bold text-black"> Impact </h2>
+    </div>
+  
+    <!-- images -->
+    <div class = "flex flex-col md:flex-row justify-center items-center gap-20 px-6 mb-20">
+      <img src = "images/cleaning1.png" alt = "Cleaning 1" class = "w-[270px] h-[270px] object-cover"/>
+      <img src = "images/cleaning2.png" alt = "Cleaning 2" class = "w-[270px] h-[270px] object-cover"/>
+      <img src = "images/cleaning3.png" alt = "Cleaning 3" class = "w-[270px] h-[270px] object-cover"/>
+    </div>
+  
+    <!-- buttons -->
+    <div class = "flex justify-center gap-6 mt-20">
+        <a href = "involve.html" class = "bg-[#B43438] text-white w-[300px] h-[45px] py-2 rounded hover:bg-red-700 
+        transition-transform duration-300 font-semibold text-center flex items-center justify-center">
+            How Can I Help?
+        </a>
+        <a href = "resources.html" class = "bg-[#B43438] text-white w-[300px] h-[45px] py-2 rounded hover:bg-red-700 
+        transition-transform duration-300 font-semibold text-center flex items-center justify-center">
+            Why Is This Important?
+        </a>
+    </div>
+    </section>
+    
+    <!-- our help section -->
+    <section class = "bg-transparent py-16 px-4">
+    <h2 class = "text-center text-[40px] deepwave-font font-bold text-black mb-10">
+        How DeepWave Has Helped
+    </h2>
+  
+    <!-- content -->
+    <div class = "max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-center gap-10">
+  
+        <!-- left text block -->
+        <div class = "max-w-md text-center md:text-left">
+            <h3 class = "text-[30px] font-semibold mb-4 deepwave-font"> We have... </h3>
+            <p class = "text-[15px] text-black leading-relaxed">
+                Made a significant impact on the environment by funding cleanup 
+                efforts that have removed tons of waste from oceans, supporting advocacy 
+                campaigns that have influenced stronger environmental policies, and partnering 
+                with organizations dedicated to restoring ecosystems.
+            </p>
+        </div>
+  
+        <!-- carousel container -->
+        <div class = "relative w-full max-w-sm">
+            <div class = "carousel">
+                <!-- slides -->
+                <div class = "carousel-slide transition-opacity duration-500 ease-in-out opacity-100">
+                <img src = "images/cleaning4.png" alt = "Cleaning 4" class = "w-[270px] h-[270px] 
+                    object-cover mx-auto"/>
+                </div>
+
+                <div class = "carousel-slide transition-opacity duration-500 ease-in-out opacity-100 hidden">
+                <img src = "images/cleaning5.png" alt = "CLeaning 5" class = "w-[270px] h-[270px] 
+                    object-cover mx-auto"/>
+                </div>
+  
+                <!-- arrows -->
+                <button class = "absolute top-1/2 left-0 transform -translate-y-1/2 
+                    bg-red-600 text-white w-10 h-10 rounded-full flex items-center 
+                    justify-center text-3xl" onclick = "prevSlide()">&#8249;
+                </button>
+                    
+                <button class = "absolute top-1/2 right-0 transform -translate-y-1/2 bg-red-600 
+                    text-white w-10 h-10 rounded-full flex items-center justify-center 
+                    text-3xl" onclick = "nextSlide()">&#8250;
+                </button>
+            </div>
+  
+        <!-- dots -->
+        <div class = "flex justify-center gap-2 mt-4">
+            <span class = "dot w-3 h-3 bg-red-600 rounded-full"></span>
+            <span class = "dot w-3 h-3 bg-gray-400 rounded-full"></span>
+        </div>
+      </div>
+    </div>
+    </section>
+  
+    <!-- your contribution section -->
+    <section class = "bg-transparent py-16">
+    <h2 class = "text-center text-3xl md:text-4xl font-bold text-black mb-10 deepwave-font">
+        YOUR Contribution Matters!
+    </h2>
+  
+    <!-- background -->
+    <div class = "relative">
+    <img src = "images/header_clean.png" alt = "People cleaning beach" class = "w-full h-auto object-cover"/>
+  
+        <!-- overlay -->
+        <div class = "absolute top-1/2 left-6 transform -translate-y-1/2 bg-black bg-opacity-60 
+            text-white p-6 rounded-lg w-[280px] min-h-[400px] flex flex-col justify-between">
+        
+            <div>
+                <h3 class = "text-[28px] font-bold mb-2 deepwave-font">
+                    Even the Smallest Donation Helps
+                </h3>
+    
+                <p class = "text-sm leading-relaxed">
+                    Together we have collaborated and succeeded to clean up for 2 tons of waste 
+                    in the ocean just this year alone! Each Penny is made sure to go into resources 
+                    to make our oceans a better and cleaner place.
+                </p>
+            </div>
+    
+            <button class = "bg-white text-black font-bold px-4 py-2 mt-6 rounded hover:bg-gray-200 transition">
+                Donate
+            </button>
+        </div>
+    </div>
+    </section>
+  
+    <!-- donations help section -->
+    <section class = "bg-transparent py-16 px-6">
+    <h2 class = "text-center text-3xl md:text-4xl font-bold text-black mb-12 deepwave-font">
+        Your Donations Help Us:
+    </h2>
+  
+    <!-- info boxes -->
+    <div class = "max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+        <!-- one -->
+        <div class = "bg-[url('images/cardboard_card.png')] bg-cover bg-center text-black p-6 shadow-md">
+            <p class = "text-base">
+                <span class = "font-bold"> Fund Cleanup Projects </span>, which help us support initiatives 
+                to remove waste.
+            </p>
+        </div>
+  
+        <!-- two -->
+        <div class = "bg-[url('images/cardboard_card.png')] bg-cover bg-center text-black p-6 shadow-md">
+            <p class = "text-base">
+                <span class = "font-bold"> Expand Community Outreach </span> which enables us to 
+                host conservation workshops.
+            </p>
+        </div>
+  
+        <!-- three -->
+        <div class = "bg-[url('images/cardboard_card.png')] bg-cover bg-center text-black p-6 shadow-md">
+            <p class = "text-base">
+                <span class = "font-bold"> Build Awareness Campaigns </span> so we can reach a 
+                broader audience and inspire global action.
+            </p>
+        </div>
+    </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-[#9DB6DE] text-[#080E48] px-8 py-10">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-10 items-start pr-6 md:pr-10">
+  
+        <!-- logo + name -->
+        <div class = "flex flex-col items-center text-center">
+            <img src = "images/deepwave_logo2.png" alt = "DeepWave logo" class = "h-20 w-auto">
+            <p class = "deepwave-font text-[28px]"> DeepWave </p>
+        </div>
+  
+        <!-- navigation links -->
+        <div class = "ml-6 mt-7">
+            <div class = "grid grid-cols-2 gap-x-8 gap-y-5 text-base text-black">
+                <a href = "#" class = "hover:underline"> Contact Us </a>
+                <a href = "about.html" class = "hover:underline"> About Us </a>
+                <a href = "resources.html" class = "hover:underline"> Resources </a>
+                <a href = "involve.html" class = "hover:underline"> Get Involved </a>
+            </div>
+        </div>
+  
+        <!-- newsletter + socials -->
+        <div class = "flex flex-col gap-4 items-end w-full max-w-sm">
+        
+        <!-- subscribption section -->
+        <label class = "text-sm font-bold self-start text-black"> Want to become member? </label>
+        <div class = "flex w-full">
+            <input type = "email" placeholder="Your email" 
+                class = "flex-grow px-4 py-2 rounded-l-md focus:outline-none"/>
+            
+            <button class = "bg-[#080E48] text-white px-6 py-2 rounded-r-md hover:bg-[#0a134f]">
+                Subscribe
+            </button>
+        </div>
+  
+        <!-- socials + donate -->
+        <div class="flex items-center gap-4 w-full justify-between">
+            <div class="flex items-center gap-4">
+                <a href = "#"><img src="images/icon_facebook.png" class="h-8 hover:scale-110 
+                    transition-transform duration-200" alt = "Facebook"/></a>
+                <a href = "#"><img src="images/icon_x.png" class="h-8 hover:scale-110 
+                    transition-transform duration-200" alt = "X"/></a>
+                <a href = "#"><img src="images/icon_instagram.png" class="h-8 hover:scale-110 
+                    transition-transform duration-200" alt = "Instagram"/></a>
+                <a href = "#"><img src="images/icon_linkedin.png" class="h-8 hover:scale-110 
+                    transition-transform duration-200" alt = "LinkedIn"/></a>
+            </div>
+            
+            <a href="#" class = "bg-[#B43438] text-white w-[200px] py-2 rounded hover:bg-[#a22d30] 
+                transition-transform duration-300 font-semibold text-center flex items-center justify-center">
+                Donate
+            </a>
+        </div>
+    </div>
+    </div>
+    </footer>
+
+    <!-- carousel script -->
+    <script>
+        let slideIndex = 0;
+        const slides = document.querySelectorAll('.carousel-slide');
+        const dots = document.querySelectorAll('.dot');
+  
+        function showSlide(index) {
+        slides.forEach((slide, i) => {
+            slide.classList.add('opacity-0');
+            slide.classList.remove('opacity-100');
+            slide.classList.add('hidden');
+
+            if (i === index) {
+                slide.classList.remove('hidden');
+                setTimeout(() => {
+                slide.classList.remove('opacity-0');
+                slide.classList.add('opacity-100');
+                }, 20);
+            }
+
+        dots[i].classList.toggle('bg-red-600', i === index);
+        dots[i].classList.toggle('bg-gray-400', i !== index);
+        });
+        }
+  
+        function prevSlide() {
+            slideIndex = (slideIndex - 1 + slides.length) % slides.length;
+        showSlide(slideIndex);
+        }
+  
+        function nextSlide() {
+            slideIndex = (slideIndex + 1) % slides.length;
+        showSlide(slideIndex);
+        }
+    </script>
+  </body>
+</html>
